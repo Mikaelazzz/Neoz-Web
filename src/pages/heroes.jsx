@@ -4,16 +4,16 @@ import '../App.css';
 function App() {
 
   const newHeroes = [
-    { name: "Fanny", type1: "Chase", type2: "Reap", image: "/src/media/17.png" },
-    { name: "Aldous", type1: "Strike", type2: "Burst", image: "/src/media/18.png" }
+    { name: "Fanny", type1: "Chase", type2: "Reap", image: "/src/media/hero/hero17.png" },
+    { name: "Layla", type1: "Reap", type2: "Damage", image: "/src/media/hero/hero18.png" }
   ];
 
   const allHeroes = [
-    { name: "Fanny", type1: "Chase", type2: "Reap", image: "/src/media/17.png" },
-    { name: "Aldous", type1: "Strike", type2: "Burst", image: "/src/media/18.png" },
-    { name: "Layla", type1: "Shoot", type2: "Snipe", image: "/src/media/19.png" },
-    { name: "Lancelot", type1: "Dash", type2: "Slash", image: "/src/media/20.png" },
-    { name: "Lesley", type1: "Snipe", type2: "Critical", image: "/src/media/21.png" },
+    { name: "Minotaur", type1: "Crowd Control", type2: "Guard", image: "/src/media/hero/hero19.png" },
+    { name: "Lolita", type1: "Guard", type2: "Crowd Control", image: "/src/media/hero/hero20.png" },
+    { name: "Hayabusa", type1: "Chase", type2: "Burst", image: "/src/media/hero/hero21.png" },
+    { name: "Freya", type1: "Chase", type2: "Damage", image: "/src/media/hero/hero22.png" },
+    { name: "Gord", type1: "Poke", type2: "Burst", image: "/src/media/hero/hero23.png" },
   ];  
 
   return (
