@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import Card from '../components/card';
+import Card from '../components/card_e';
 import '../App.css';
 
 function App() {
   const emblem = [
-    { name: "Assasin", slot1:"", slot2:"", slot3:"", image: "/src/media/emblem/emblem1.png" },
-    { name: "Fighter", slot1:"", slot2:"", slot3:"", image: "/src/media/emblem/emblem2.png" },  
+    { name: "Assasin", slot1:"/src/media/hero/hero19.png", slot2:"/src/media/hero/hero19.png", slot3:"/src/media/hero/hero19.png", image: "/src/media/emblem/assasin.png" },
+    { name: "Fighter", slot1:"", slot2:"", slot3:"", image: "/src/media/emblem/fighter.png" }, 
+    { name: "Common", slot1:"", slot2:"", slot3:"", image: "/src/media/emblem/common.png" }, 
     { name: "Mage", slot1:"", slot2:"", slot3:"", image: "/src/media/emblem/emblem4.png" },
     { name: "Marksman", slot1:"", slot2:"", slot3:"", image: "/src/media/emblem/emblem5.png" },
     { name: "Tank", slot1:"", slot2:"", slot3:"", image: "/src/media/emblem/emblem6.png" },

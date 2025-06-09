@@ -1,7 +1,7 @@
 import { Chip } from '@mui/material';
 import '../App.css';
 
-function Card({ name, image, type1, type2 }) {
+function Card({ name, image, slot1, slot2, slot3 }) {
   return (
     <div className='font-[poppins] w-full h-full'>
       <div className='flex flex-col h-full shadow-md rounded-md overflow-hidden'>
@@ -19,15 +19,22 @@ function Card({ name, image, type1, type2 }) {
         </div>
         
         <div className='bg-sky-100 p-2'>
-          <div className='flex flex-wrap gap-1 justify-center'>
-            <Chip 
-              label={type1}
-              className='!text-xs !font-[poppins] !border-0 !bg-purple-300 hover:!bg-purple-400 !text-purple-800 hover:!text-purple-900' 
-            />
-            <Chip 
-              label={type2}
-              className='!text-xs !font-[poppins] !border-0 !bg-purple-300 hover:!bg-purple-400 !text-purple-800 hover:!text-purple-900' 
-            />
+          <div className='flex flex-wrap gap-2 justify-center'>
+            <img 
+                src={slot1} 
+                alt={name} 
+                className='w-12 h-12' 
+              />
+              <img 
+                src={slot2} 
+                alt={name} 
+                className='w-12 h-12' 
+              />
+              <img 
+                src={slot3} 
+                alt={name} 
+                className='w-12 h-12' 
+              />
           </div>
         </div>
       </div>
