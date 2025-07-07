@@ -17,7 +17,7 @@ function App() {
     <>
     <section className='p-4 font-[poppins] space-y-6  mx-12 mt-4'>
         <div className='flex flex-row justify-between items-center rounded-md'>
-          <h1 className='text-sm font-bold mb-4 xl:text-xl items-center'>New Update Patch On MLBB !</h1>
+          <h1 className='text-xs font-bold xl:text-xl lg:text-lg sm:text-sm text-center'>New Update Patch On MLBB !</h1>
           <select className='bg-gray-300 p-1 rounded-lg' name="" id="">
             <option value="" hidden>Pilih Patch</option>
             <option value="1">1.9.4.2</option>
